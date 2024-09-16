@@ -1,3 +1,4 @@
+import About from "./Components/About/About";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import Programs from "./Components/Programs/Programs";
@@ -8,8 +9,9 @@ export default function App() {
       <Navbar />
       <Hero />
       <div className="container">
-        <Title subTitle="Our PROGRAM" title = "What We Offer" />
+        <Title subTitle="Our PROGRAM" title="What We Offer" />
         <Programs />
+        <About />
       </div>
     </div>
   );
